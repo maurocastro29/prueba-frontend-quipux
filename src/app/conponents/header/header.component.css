@@ -19,3 +19,24 @@
 .logo-user li{
   border-radius: 50%;
 }
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.dropdown-menu {
+  justify-content: flex-end;
+}
+
+
+@media (max-width: 992px) {
+  .navbar-collapse {
+    text-align: right;
+  }
+  .dropdown-menu {
+    text-align: center;
+  }
+}
