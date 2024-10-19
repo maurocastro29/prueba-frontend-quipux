@@ -20,7 +20,7 @@
       </div>
       <ul *ngIf="isSubmenuEmpresasVisible && !isCollapsed" class="sub-menu w-100 pl-3" [ngClass]="{'active-li': isSubmenuEmpresasVisible}">
         <li class="nav-item mt-2">
-          <a class="nav-link text-light" [routerLink]="['/empresas']" (click)="setActiveRoute('/empresas')">
+          <a class="nav-link text-light mr-5" [routerLink]="['/empresas']" (click)="setActiveRoute('/empresas')">
             <hr class="linea mt-3">Empresas
           </a>
         </li>
@@ -37,7 +37,7 @@
       </div>
       <ul *ngIf="isSubmenuArticulosVisible && !isCollapsed" class="sub-menu w-100 pl-3">
         <li class="nav-item">
-          <a class="nav-link text-light" [routerLink]="['/articulos']" (click)="setActiveRoute('/articulos')">
+          <a class="nav-link text-light  mr-5" [routerLink]="['/articulos']" (click)="setActiveRoute('/articulos')">
             <hr class="linea mt-3">Artículos
           </a>
         </li>
@@ -54,7 +54,7 @@
       </div>
       <ul *ngIf="isSubmenuColaboradoresVisible && !isCollapsed" class="sub-menu w-100 pl-3">
         <li class="nav-item">
-          <a class="nav-link text-light" [routerLink]="['/colaboradores']" (click)="setActiveRoute('/colaboradores')">
+          <a class="nav-link text-light  mr-5" [routerLink]="['/colaboradores']" (click)="setActiveRoute('/colaboradores')">
             <hr class="linea mt-3">Colaboradores
           </a>
         </li>
