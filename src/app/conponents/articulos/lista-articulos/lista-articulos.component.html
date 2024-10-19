@@ -1,0 +1,9 @@
+<div class="articulos-container">
+  <div *ngFor="let articulo of articulos" class="articulo">
+    <div class="articulo-contenido">
+      <img [src]="articulo.imagen" alt="{{ articulo.titulo }}" class="imagen-articulo" />
+      <p>{{ articulo.titulo }}</p>
+      <p class="small">{{ articulo.descripcion }}</p>
+    </div>
+  </div>
+</div>

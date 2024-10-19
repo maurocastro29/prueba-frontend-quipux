@@ -1,0 +1,106 @@
+
+.titulo-buscar{
+  font-size: 3rem;
+
+}
+.margen-separacion-top{
+  margin-top: 5rem;
+}
+.custom-select {
+  width: 50%;
+  border-radius: 3px 0 0 3px;
+  background-color: #d8f1ff;
+  border: 1px solid #00519e;
+  color: #00519e;
+}
+
+.input-group-append{
+  width: 100%;
+  border-radius: 0;
+  background-color: #f8f9fa;
+}
+
+.custom-select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.input-group > .form-control,
+.input-group > .btn {
+  border-radius: 0;
+}
+
+.bordes{
+  border-radius: 0 0 0 0;
+  border: 1px solid #00519e;
+  border-left: none;
+}
+
+.titulo-card{
+  color: #00519e;
+  font-size: larger;
+}
+.btn{
+  margin: 0px;
+}
+.imagen-mujer{
+  position: relative;
+  margin-top: 50px;
+  left: 25px;
+  width: 450px;
+}
+.servicios-quipux{
+  background-color: rgba(255, 255, 255);
+  opacity: 0.9;
+  font-size: 2.3em;
+  width: 450px;
+  text-align: center;
+  color: #00519e;
+  position: relative;
+  bottom: 120px;
+  left: 55px;
+  padding-top: 2px;
+  padding-bottom: 1px;
+}
+.servicios-quipux p{
+position: relative;
+top: 6px;
+}
+.card-tramites{
+  position: relative;
+  bottom: 100px;
+  width: 450px;
+  height: 300px;
+  left: 55px;
+  border-radius: 3px;
+}
+.linea-izquierda{
+  position: relative;
+  float: left;
+  width: 3px;
+  height: 182px;
+  background-color: #00519e;
+  border-radius: 15px;
+  left: 3px;
+  z-index: 1;
+  top: 3px;
+}
+.rango{
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.progress-container {
+  width: 70%;
+  background-color: #9ccefc;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 5px;
+}
+
+.progress-bar {
+  width: 25%;
+  height: 5px;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}

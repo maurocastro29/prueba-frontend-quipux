@@ -1,0 +1,21 @@
+.navbar-brand i {
+  font-size: 1.5rem;
+}
+
+.nav-link img {
+  margin-right: 10px;
+}
+
+.logo-user{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: #646464;
+  padding-left: 11px;
+  padding-top: 11px;
+  margin-right: 100px;
+}
+
+.logo-user li{
+  border-radius: 50%;
+}

@@ -1,0 +1,82 @@
+.bg-menu{
+  background-color: #201923;
+}
+.menu-left {
+  position: fixed;
+  top: 0; /* Comienza desde arriba */
+  left: 0; /* Alineado a la izquierda */
+  height: 100vh; /* Altura completa de la ventana */
+  width: 250px; /* Ancho del menú expandido */
+  background-color: #302634; /* Color de fondo */
+  z-index: 1100; /* Z-index para asegurarse de que se superponga */
+  transition: width 0.3s ease; /* Transición suave */
+}
+
+.menu-left.collapsed {
+  width: 50px; /* Ancho del menú colapsado */
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-link span {
+  margin-left: 10px; /* Espaciado entre el icono y el texto */
+}
+
+.collapsed .nav-link span {
+  display: none; /* Oculta el texto en el menú colapsado */
+}
+
+.content {
+  margin-top: 40px; /* Espacio para el header */
+  margin-left: 250px; /* Espacio para el menú lateral cuando está expandido */
+  transition: margin-left 0.3s ease; /* Transición suave */
+}
+
+.menu-left.collapsed ~ .content {
+  margin-left: 60px; /* Ajuste cuando el menú lateral está colapsado */
+}
+
+.sub-menu {
+  padding-left: 0; /* Elimina el padding adicional a la izquierda */
+  margin-left: 0; /* Alinea el submenú completamente a la izquierda */
+  list-style: none; /* Elimina los puntos de la lista */
+}
+
+.sub-menu .nav-item {
+  margin-bottom: 5px; /* Espacio entre opciones del submenú */
+}
+
+.sub-menu .nav-link {
+  padding: 5px 15px; /* Espaciado interno para el enlace */
+  text-align: left; /* Asegura que el texto esté alineado a la izquierda */
+}
+
+.linea {
+  background-color: #5e5c5f;
+  width: 45px;
+}
+
+.active-li {
+  background-color: #201923;
+}
+
+.sub-menu {
+  padding-left: 0;
+  margin-left: 0;
+  list-style: none;
+}
+
+.sub-menu .nav-item {
+  margin-bottom: 5px;
+}
+
+.sub-menu .nav-link {
+  padding: 5px 15px;
+}
+.nav-item .nav-link i {
+  margin-top: 14px;
+}
